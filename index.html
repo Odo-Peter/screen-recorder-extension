@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <title>Help me out - extension</title>
+  </head>
+  <body>
+    <main>
+      <div class="nav-bar">
+        <div class="logo">
+          <img alt="logo" src="./images/favicon-32x32.png" />
+          <h1>HelpMeOut</h1>
+        </div>
+        <div class="icons">
+          <img alt="settings" src="./images/setting-2.svg" />
+          <img alt="cancel" src="./images/close-circle.svg" />
+        </div>
+      </div>
+
+      <div class="text">
+        <p>
+          This extension helps you record and share helpful videos with ease
+        </p>
+      </div>
+
+      <div class="screen-modes">
+        <div class="full-screen">
+          <img src="./images/monitor.svg" alt="monitor" />
+          <h3>Full screen</h3>
+        </div>
+        <div class="current-tab">
+          <img src="./images/tab.svg" alt="tab" />
+          <h3>Current Tab</h3>
+        </div>
+      </div>
+
+      <div class="utils">
+        <div class="camera">
+          <div class="cam">
+            <img src="./images/video-camera.svg" alt="camera" />
+            <h3>Camera</h3>
+          </div>
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="audio">
+          <div class="aud">
+            <img src="./images/microphone.svg" alt="audio" />
+            <h3>Audio</h3>
+          </div>
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="btn">
+        <button id="start-record-btn">Start Recording</button>
+      </div>
+    </main>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
